@@ -12,18 +12,7 @@ Modular design with separate classes for game logic and letter state
 
 Requirements
 Python 3.7 or higher
-
 colorama library for terminal text coloring
-
-To install dependencies:
-
-
-wordle-game/
-├── play_wordle.py           # Main script to run the game
-├── wordle.py                # Core game logic
-├── letter_state.py          # Represents state of each letter
-├── README.md                # Project documentation
-
 
 How to Play
 Run play_wordle.py.
