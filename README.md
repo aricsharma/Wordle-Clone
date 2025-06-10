@@ -1,7 +1,3 @@
-# Wordle-Clone
-An implementation of Wordle in Python than can be played in the terminal.
-
-
 Wordle Game Simulator (Python)
 This is a terminal-based Wordle game clone built in Python. Players have six attempts to guess a hidden five-letter word, receiving feedback on each guess based on letter correctness and position.
 
