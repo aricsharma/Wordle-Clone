@@ -1,38 +1,30 @@
-Wordle Game Simulator (Python)
-This is a terminal-based Wordle game clone built in Python. Players have six attempts to guess a hidden five-letter word, receiving feedback on each guess based on letter correctness and position.
+This is a terminal-based implementation of the classic Wordle game built in Python. Users attempt to guess a hidden five-letter word within six tries, receiving letter-by-letter feedback after each guess. The game includes color-coded output using the colorama library for better visual clarity.
 
 Features
-Command-line gameplay
+Command-line interface with real-time feedback
 
-Accurate feedback for each letter in the guess
+Color-coded hints to indicate correct letters and positions
 
-Color-coded output using the colorama library
+Input validation for word length
 
-Modular design with separate classes for game logic and letter state
+Clean, modular code design for easy extensibility
 
-Requirements
-Python 3.7 or higher
-colorama library for terminal text coloring
+Tech Stack
+Language: Python
 
-How to Play
-Run play_wordle.py.
+Terminal Coloring: Colorama
 
-Enter 5-letter word guesses when prompted.
+How It Works
+The user inputs a five-letter word as a guess.
 
-After each guess, you will see color-coded feedback:
+Each letter is evaluated:
 
-Green: Correct letter in correct position
+Green for correct letter in the correct position.
 
-Yellow: Correct letter in wrong position
+Yellow for correct letter in the wrong position.
 
-White: Letter not in the word
+White for incorrect letters.
 
-Future Improvements
-Random word selection from a dictionary file
-
-GUI version using Pygame
-
-Score tracking and statistics
 
 License
 This project is licensed under the MIT License.
