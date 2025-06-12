@@ -1,30 +1,36 @@
-This is a terminal-based implementation of the classic Wordle game built in Python. Users attempt to guess a hidden five-letter word within six tries, receiving letter-by-letter feedback after each guess. The game includes color-coded output using the colorama library for better visual clarity.
+# Terminal Wordle Game in Python
 
-Features
-Command-line interface with real-time feedback
+This is a terminal-based implementation of the classic Wordle game built in Python. Players attempt to guess a hidden five-letter word within six tries, receiving color-coded feedback after each guess for better clarity and engagement.
 
-Color-coded hints to indicate correct letters and positions
+## Features
 
-Input validation for word length
+- Command-line interface with real-time feedback
+- Color-coded hints:
+  - Green for correct letter in the correct position
+  - Yellow for correct letter in the wrong position
+  - White for incorrect letters
+- Input validation for word length
+- Modular and well-structured codebase for easy extension
 
-Clean, modular code design for easy extensibility
+## Tech Stack
 
-Tech Stack
-Language: Python
+- **Language**: Python
+- **Terminal Coloring**: Colorama
 
-Terminal Coloring: Colorama
+## How It Works
 
-How It Works
-The user inputs a five-letter word as a guess.
+1. The user enters a five-letter word as a guess.
+2. Each letter is evaluated against the hidden word.
+3. Feedback is provided using colors to indicate:
+   - Correct letter and position (green)
+   - Correct letter, wrong position (yellow)
+   - Incorrect letter (white)
+4. The game ends when the correct word is guessed or after six unsuccessful attempts.
 
-Each letter is evaluated:
+## Setup Instructions
 
-Green for correct letter in the correct position.
-
-Yellow for correct letter in the wrong position.
-
-White for incorrect letters.
-
-
-License
-This project is licensed under the MIT License.
+1. Clone the repository.
+2. Ensure Python is installed on your system.
+3. Install the required package:
+   ```bash
+   pip install colorama
